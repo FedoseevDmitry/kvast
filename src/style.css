@@ -471,6 +471,18 @@ body {
     margin-top: 5px;
 }
 
+.press .btn:hover {
+    background-color: #a5a097;
+    color: white;
+    border-color: #a5a097;
+}
+
+.press .btn:active {
+    background-color: #8f8a81;
+    color: #b1ada7;
+    border-color: #8f8a81;
+}
+
 /* Assortiment */
 
 .assortiment-menu {
@@ -623,6 +635,13 @@ body {
     height: 50px;
 }
 
+.order-form-group select {
+    background-color: #e5b66c;
+    border: none;
+    width: 626px;
+    height: 50px;
+}
+
 .order #comment-form {
     background-color: #e5b66c;
     border: none;
@@ -641,6 +660,16 @@ body {
     text-transform: uppercase;
     font-weight: bold;
     border: none;
+    cursor: pointer;
+}
+
+.order-form-group input[type="submit"]:hover {
+    background-color: #6a3900;
+}
+
+.order-form-group input[type="submit"]:active {
+    background-color: #6a3900;
+    color: #97754d;
 }
 
 /* Footer */
@@ -797,4 +826,16 @@ body {
     padding: 11px 0;
     font-size: 14px;
     line-height: 20px;
+    color: #989898;
+}
+
+.footer-social:hover a,
+.footer-copyright .academy-logo:hover {
+    border-color: #605037;
+}
+
+.footer-social:active a,
+.footer-copyright .academy-logo:active {
+    opacity: 0.5;
+    border-color: rgba(96, 80, 55, 0.5);
 }
